@@ -28,7 +28,7 @@ while True:
         else:
             print (f"Opção {pergunta} desconhecida, finalizando código...")
             break
-    # Caso o usuário digite uma opção inválida
+    # Caso o usuário não digite um número inteiro
     except Exception:
         print ("Apenas números inteiros são permitidos, refaça a operação.")
 # Mensagem
